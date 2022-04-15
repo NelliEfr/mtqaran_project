@@ -1,4 +1,4 @@
-import "./index.modules.css";
+import "./index.module.css";
 
 const AboutPage = () => {
   return (

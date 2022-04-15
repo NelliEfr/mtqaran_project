@@ -1,17 +1,17 @@
 import React from "react";
 import Logo from "../Logo";
-import "./index.modules.css";
+import s from "./index.module.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-      <div className="container">
+      <div className={s.container}>
         <Link to='/'>
           <Logo />
         </Link>
 
-        <div className="navigation">
+        <div className={s.navigation}>
           <Link to='/catalog'>
             <div>Каталог курсов</div>
           </Link>
@@ -25,13 +25,13 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="auth">
+        <div className={s.auth}>
           <Link to='/auth'>
-            <button className="login">Вход</button>
+            <button className={s.login}>Вход</button>
           </Link>
 
           <Link to='/auth'>
-            <button className="register">Регистрация</button>
+            <button className={s.register}>Регистрация</button>
           </Link>
         </div>
 

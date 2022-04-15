@@ -1,9 +1,11 @@
-import "./index.modules.css";
+import "./index.module.css";
+
+import SliderShow from "../../components/SliderShow";
 
 const MainPage = () => {
   return (
     <div>
-      Главная страница
+      <SliderShow />
     </div>
   );
 };

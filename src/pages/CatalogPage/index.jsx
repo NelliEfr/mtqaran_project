@@ -1,9 +1,10 @@
-import "./index.module.css";
+import s from "./index.module.css";
+import SliderShow from "../../components/SliderShow";
 
 const CatalogPage = () => {
   return (
     <div>
-      Страница "Каталог курсов"
+      <SliderShow />
     </div>
   );
 };
